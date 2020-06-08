@@ -1,0 +1,87 @@
+.wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+.content {
+  padding-bottom: 100px;
+}
+
+#date {
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+  color: #fff;
+  font-size: 30px;
+  /* font-family: 'Titillium Web', sans-serif; */
+}
+
+.footer {
+  position: absolute;
+  bottom: 10px;
+  height: 60px;
+  color: white;
+}
+
+.checkbox-lg .custom-control-label::before, 
+.checkbox-lg .custom-control-label::after {
+  top: .8rem;
+  width: 1.55rem;
+  height: 1.55rem;
+  display:inline-block;
+}
+
+.checkbox-lg .custom-control-label {
+  padding-top: 13px;
+  padding-left: 6px;
+  font-size: larger;
+  font-weight: 400;
+  display:inline-block;
+  color: rgb(240, 232, 232);
+}
+
+body,
+html,footer {
+  background: url(img/main.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+.jumbotron {
+  background: none;
+  text-align: center;
+  margin-top: 20px;
+  h1 {
+    font-size: 2em;
+}
+p {
+  color: #fff;
+  font-size: 1.2em;
+}
+}
+
+
+.search {
+  /* background-color: aliceblue; */
+  height: 4em;
+}
+
+.checkbox {
+  margin-top: 0.5%;
+}
+
+.search div form {
+  padding-top: 1em;
+}
+
+.status-header {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.singleTodo {
+  margin-bottom: 1%;
+}
